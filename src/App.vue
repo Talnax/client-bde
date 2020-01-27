@@ -33,10 +33,13 @@
     </v-app-bar>
     -->
 
-    <div class="vl"></div>
-    <div class="middle-block"></div>
-    <div class="right-block"></div>
+    <div class="vl-l"></div>
+    <div class="middle-block-left"></div>
+    <div class="right-block-left"></div>
 
+    <div class="vl-r"></div>
+    <div class="middle-block-right"></div>
+    <div class="right-block-right"></div>
   </v-app>
 </template>
 
@@ -57,31 +60,28 @@ export default {
 <!--https://stackoverflow.com/questions/3148415/how-to-make-a-vertical-line-in-html-->
 <style>
 
-  .vl {
+  .vl-l {
     border-left: 2px solid gray;
-    margin-left: 20px;
+    margin-left: 38px;
     height: 90%;
     margin-top: 2%;
   }
-
-  .middle-block {
+  .middle-block-left {
     width: 20px;
     height: 2px;
     top: 100px;
-    left: 11px;
+    left: 30px;
     border: 1px solid gray;
     position: absolute;
   }
-
-  .right-block {
+  .right-block-left {
     width: 20px;
     height: 6px;
     top: 98px;
-    left: 60px;
+    left: 70px;
     border: 3px solid gray;
     position: absolute;
   }
-
   .left-block {
     width: 100px;
     height: 20px;
@@ -91,10 +91,33 @@ export default {
     position: absolute;
   }
 
-
-
-  .gl1 {
-
+  /* */
+  .vl-r {
+    border-right: 2px solid gray;
+    right: 38px;
+    height: 90%;
+    top: 4%;
+    position: absolute;
   }
+
+  .middle-block-right {
+    width: 20px;
+    height: 2px;
+    top: 100px;
+    right: 30px;
+    border: 1px solid gray;
+    position: absolute;
+  }
+  .right-block-right {
+    width: 20px;
+    height: 6px;
+    top: 98px;
+    right: 70px;
+    border: 3px solid gray;
+    position: absolute;
+  }
+
+
+
 
 </style>
