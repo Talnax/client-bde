@@ -1,0 +1,32 @@
+1. firebase login
+2. firebase init
+3. firebase deploy
+
+// ----------------------------------------------- CONFIG
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA0XOQ6H9_GNB6vdaCvhs4bVjJdXFZ626w",
+  authDomain: "client-bde.firebaseapp.com",
+  databaseURL: "https://client-bde.firebaseio.com",
+  projectId: "client-bde",
+  storageBucket: "client-bde.appspot.com",
+  messagingSenderId: "95620406251",
+  appId: "1:95620406251:web:6539621801aebff72717ae"
+};
+
+// ----------------------------------------------- CDN
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA0XOQ6H9_GNB6vdaCvhs4bVjJdXFZ626w",
+    authDomain: "client-bde.firebaseapp.com",
+    databaseURL: "https://client-bde.firebaseio.com",
+    projectId: "client-bde",
+    storageBucket: "client-bde.appspot.com",
+    messagingSenderId: "95620406251",
+    appId: "1:95620406251:web:6539621801aebff72717ae"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
