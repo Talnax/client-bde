@@ -37,9 +37,20 @@
     <div class="middle-block-left"></div>
     <div class="right-block-left"></div>
 
+    <!--
     <div class="vl-r"></div>
     <div class="middle-block-right"></div>
     <div class="right-block-right"></div>
+    -->
+
+    <div class="middle-block-right"></div>
+    <div class="small-right-square"></div>
+    <div class="bigger-right-square"></div>
+    <div class="vl-right"></div>
+    <div class="right-square"></div>
+
+
+
   </v-app>
 </template>
 
@@ -61,17 +72,17 @@ export default {
 <style>
 
   .vl-l {
-    border-left: 2px solid gray;
+    border-left: 2px solid darkgray;
     margin-left: 38px;
     height: 90%;
     margin-top: 2%;
   }
   .middle-block-left {
     width: 20px;
-    height: 2px;
+    height: 6px;
     top: 100px;
     left: 30px;
-    border: 1px solid gray;
+    border: 1px solid darkgray;
     position: absolute;
   }
   .right-block-left {
@@ -79,7 +90,7 @@ export default {
     height: 6px;
     top: 98px;
     left: 70px;
-    border: 3px solid gray;
+    border: 3px solid darkgray;
     position: absolute;
   }
   .left-block {
@@ -87,25 +98,23 @@ export default {
     height: 20px;
     top: 10px;
     left: 10px;
-    border:1px solid #777;
+    border:1px solid darkgray;
     position: absolute;
   }
 
-  /* */
   .vl-r {
-    border-right: 2px solid gray;
+    border-right: 2px solid #616161;
     right: 38px;
     height: 90%;
     top: 4%;
     position: absolute;
   }
-
   .middle-block-right {
     width: 20px;
     height: 2px;
     top: 100px;
     right: 30px;
-    border: 1px solid gray;
+    border: 1px solid #616161;
     position: absolute;
   }
   .right-block-right {
@@ -113,7 +122,51 @@ export default {
     height: 6px;
     top: 98px;
     right: 70px;
-    border: 3px solid gray;
+    border: 3px solid #616161;
+    position: absolute;
+  }
+
+
+
+  .middle-block-right {
+    width: 25px;
+    height: 45px;
+    top: 20px;
+    right: 60px;
+    border: 1px solid darkgray;
+    position: absolute;
+  }
+  .small-right-square {
+    width: 25px;
+    height: 18px;
+    top: 70px;
+    right: 60px;
+    background-color: #555;
+    border: 1px solid darkgray;
+    position: absolute;
+  }
+  .bigger-right-square {
+    width: 30px;
+    height: 6px;
+    top: 95px;
+    right: 57px;
+    background-color: #BDBDBD;
+    border: 1px solid darkgray;
+    position: absolute;
+  }
+  .vl-right {
+    border-right: 2px solid #616161;
+    right: 71px;
+    height: 20%;
+    top: 10.7%;
+    position: absolute;
+  }
+  .right-square {
+    top: 30%;
+    right: 60px;
+    height: 25px;
+    width: 25px;
+    background-color: #555;
     position: absolute;
   }
 

@@ -50,3 +50,7 @@ const firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
+
+// ----------------------------------------------- SASS
+
+https://github.com/webpack-contrib/sass-loader
