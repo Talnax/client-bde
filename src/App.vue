@@ -48,7 +48,10 @@
     <div class="bigger-right-square"></div>
     <div class="vl-right"></div>
     <div class="right-square"></div>
-
+    <div class="small-square-1"></div>
+    <div class="small-square-2"></div>
+    <div class="small-square-3"></div>
+    <div class="hl-right"></div>
 
 
   </v-app>
@@ -157,7 +160,7 @@ export default {
   .vl-right {
     border-right: 2px solid #616161;
     right: 71px;
-    height: 20%;
+    height: 19.5%;
     top: 10.7%;
     position: absolute;
   }
@@ -166,10 +169,41 @@ export default {
     right: 60px;
     height: 25px;
     width: 25px;
+    border: 1px solid darkgray;
+    position: absolute;
+  }
+  .small-square-1 {
+    top: 30.7%;
+    right: 90px;
+    height: 12px;
+    width: 12px;
     background-color: #555;
     position: absolute;
   }
-
+  .small-square-2 {
+    top: 30.7%;
+    right: 106px;
+    height: 12px;
+    width: 12px;
+    background-color: #555;
+    position: absolute;
+  }
+  .small-square-3 {
+    top: 30.7%;
+    right: 122px;
+    height: 12px;
+    width: 12px;
+    background-color: #555;
+    /*border: 1px solid darkgray;*/
+    position: absolute;
+  }
+  .hl-right {
+    top: 31.3%;
+    right: 140px;
+    position: absolute;
+    border: 1px solid #555;
+    width: 240px;
+  }
 
 
 
