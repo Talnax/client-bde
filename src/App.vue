@@ -52,7 +52,10 @@
     <div class="small-square-2"></div>
     <div class="small-square-3"></div>
     <div class="hl-right"></div>
-
+    <div class="vl-stop"></div>
+    <div class="text-up">Current text is UP</div>
+    <div class="text-dn">This is DN</div>
+    <div class="rectangle-end"></div>
 
   </v-app>
 </template>
@@ -204,7 +207,37 @@ export default {
     border: 1px solid #555;
     width: 240px;
   }
-
+  .vl-stop {
+    border-right: 2px solid #616161;
+    right: 380px;
+    height: 5%;
+    top: 29%;
+    position: absolute;
+  }
+  .text-up {
+    right: 280px;
+    height: 3%;
+    top: 29%;
+    position: absolute;
+    font-size: 12px;
+    color: #616161;
+  }
+  .text-dn {
+    right: 320px;
+    height: 3%;
+    top: 32%;
+    position: absolute;
+    font-size: 12px;
+    color: #616161;
+  }
+  .rectangle-end {
+    top: 29.6%;
+    right: 400px;
+    height: 33px;
+    width: 33px;
+    border: 1px solid darkgray;
+    position: absolute;
+  }
 
 
 </style>
